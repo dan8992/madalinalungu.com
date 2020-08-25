@@ -1,0 +1,21 @@
+.product-card {
+  float: left;
+  width: 89%;
+  margin: 10px;
+}
+
+.collection {
+  content: "";
+  display: table;
+  clear: both;
+  margin: auto;
+  width: 50%;
+  
+}
+
+@media(max-width: 700px) {
+
+  .product-card  {
+    width: 80vw;
+  }
+}

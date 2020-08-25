@@ -1,0 +1,9 @@
+.background {
+  background: url('../images/background-image6.jpg') no-repeat center center/cover;
+  height: 75vh;
+  position: relative;
+  color: white;
+  margin: 0px 10px;
+  z-index: -100;
+
+}

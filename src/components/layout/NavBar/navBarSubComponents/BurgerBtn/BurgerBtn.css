@@ -1,0 +1,13 @@
+.user-mode {
+  display: none;
+}
+
+a .user-mode {
+  color:#333;
+}
+
+@media (max-width: 846px){
+  .user-mode {
+    display: initial;
+  }  
+}

@@ -1,0 +1,62 @@
+body {
+  font-family: 'futura-pt', sans-serif;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+
+}
+
+.column {
+  float: right;
+}
+
+.column-1 {
+  width: 40%;
+}
+
+.column-2 {
+  width: 60%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column img { 
+  display:block;
+  margin: auto;
+  width: 100%;
+  max-width:300px;
+  margin-top: 30px;
+}
+
+.signature img {
+  display:block;
+  margin:auto;
+  height: 20vh;
+  margin-top: 20px;
+}
+
+.description p {
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+@media(max-width: 846px) {
+
+  .column {
+    float: left;
+    width: 100%;
+  }
+
+  .description  {
+    margin-bottom: 120px;
+  }
+}

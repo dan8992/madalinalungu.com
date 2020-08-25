@@ -1,0 +1,44 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+.content:after  {
+  margin: auto;
+  width: 50%;
+}
+
+.info {
+  text-align: justify;
+  padding: 12px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.info h1 {
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+form {
+  margin: auto;
+  width: 40%;
+}
+
+@media(max-width: 800px) {
+
+  form {
+    width: 70%;
+    margin-bottom: 90px;
+  }
+
+  .info {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+}

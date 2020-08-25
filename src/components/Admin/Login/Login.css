@@ -1,0 +1,62 @@
+.login-form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+
+.contact-form {
+  border-radius: 8px;
+}
+
+form .login-form {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+button .button-success {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #333;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #333;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 5px;
+  padding: 12px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+  border: none;
+  font-size: 12px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 8px;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 25px;
+}
+
+label, input, textarea {
+  text-align: justify;
+  padding: 12px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  float: left;
+  font-family: 'futura-pt', sans-serif;
+}
+
+
